@@ -37,32 +37,31 @@ The dataset uses 7 main intent classes:
 ## Project Structure
 
 ```plaintext
-SSH_Shell_Attack_Project/
-├── data/                            # Dataset and related resources
-│   ├── raw/                         # Original dataset files
-│   ├── processed/                   # Pre-processed data
-│   └── README.md                    # Dataset details
-├── notebooks/                       # Jupyter notebooks
-│   ├── main.ipynb                   # Main execution notebook
-│   ├── exploration.ipynb            # Data exploration and visualization
-│   └── experiments.ipynb            # Experimental notebooks
-├── scripts/                         # Python scripts for modular code
-│   ├── preprocessing/               # Data preprocessing scripts
-│   ├── supervised_learning/         # Supervised learning algorithms
-│   ├── unsupervised_learning/       # Clustering scripts
-│   ├── language_models/             # NLP-based models (BERT, Doc2Vec)
-│   └── utils/                       # General-purpose utilities
-├── results/                         # Outputs from models and analyses
-│   ├── figures/                     # Visualizations
-│   ├── models/                      # Trained model files
-│   ├── metrics/                     # Performance metrics
-├── tests/                           # Unit tests
-│   ├── test_preprocessing.py        # Tests for preprocessing
-│   ├── test_models.py               # Tests for ML pipelines
-├── README.md                        # Project documentation
-├── requirements.txt                 # Python dependencies
-├── .gitignore                       # Git ignore file
-└── LICENSE                          # License file
+SSH-Shell-Attacks/
+├── data/                           # Dataset and related resources
+│   ├── raw/                        # Original dataset files (e.g., ssh_attacks.parquet)
+│   └── processed/                  # Pre-processed and feature-engineered files
+│
+├── notebooks/                      # Jupyter notebooks
+│
+├── scripts/                        # Python scripts for algorithms and utilities
+│   ├── preprocessing/              # Data processing and preparation scripts
+│   ├── supervised_learning/        # Supervised learning algorithms
+│   ├── unsupervised_learning/      # Clustering algorithms
+│   ├── language_models/            # Scripts for language model experimentation
+│   └── utils/                      # General-purpose utilities
+│
+├── results/                        # Outputs from the models and analysis
+│   ├── figures/                    # Plots and visualizations
+│   ├── models/                     # Saved models (e.g., .pkl, .h5)
+│   └── metrics/                    # Evaluation metrics and reports
+│
+├── tests/                          # Unit tests
+│
+├── README.md                       # High-level overview of the project
+├── requirements.txt                # Python dependencies
+├── .gitignore                      # Ignore unnecessary files for versioning
+└── LICENSE                         # Licensing information (optional)
 ```
 
 ---
@@ -84,8 +83,8 @@ SSH_Shell_Attack_Project/
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository_url>
-   cd SSH_Shell_Attack_Project
+   git clone https://github.com/ML4Net/SSH-Shell-Attacks.git
+   cd SSH-Shell-Attacks
    ```
 
 2. **Install Dependencies:**
