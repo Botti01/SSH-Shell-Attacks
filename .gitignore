@@ -13,8 +13,8 @@ __pycache__/
 # Ignore temporary files created by editors and IDEs
 *.swp                # vi/vim temporary files
 *.swo                # vi/vim temporary files
-*.idea/              # IntelliJ IDEA project files
 .idea/               # IntelliJ IDEA project files
+*.idea/              # IntelliJ IDEA project files
 .vscode/             # Visual Studio Code workspace settings
 
 # Ignore OS-specific files
