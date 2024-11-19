@@ -51,4 +51,5 @@ metrics/             # Evaluation results
 # Ignore notebook outputs (optional)
 *.nbconvert.ipynb    # Notebooks converted to other formats
 
+#Ignore notebook backup
 .Backup/
