@@ -6,7 +6,7 @@
 
 <details closed>
 <summary><b>Table of Contents</b></summary>
-
+&nbsp; <br>
 &nbsp;• [Overview](#overview) <br>
 &nbsp;• [Dataset](#dataset) <br>
 &nbsp;• [Project Structure](#project-structure) <br>
@@ -28,11 +28,17 @@
 
 </details>
 
----
 
 ## Overview
 
 This project is part of the **Machine Learning for Networking (ML4N)** course at Politecnico di Torino. It focuses on analyzing SSH shell attack sessions recorded from honeypot deployments to classify attacker intents and explore underlying patterns.
+
+> **Navigation Tip**: This `README` provides a general overview of the project. For detailed documentation, check the specific `README` files in each directory ([see Table of Contents above](#table-of-contents)). Each subdirectory contains in-depth information about its specific components.
+ 
+> **Quick Links**:
+> - For data structure and preprocessing: [Data Documentation](data/README.md)
+> - For analysis notebooks: [Notebooks Documentation](notebooks/README.md)
+> - For implementation details: [Scripts Documentation](scripts/README.md)
 
 ### Objectives
 
