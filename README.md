@@ -6,7 +6,7 @@
 
 <details closed>
 <summary><b>Table of Contents</b></summary>
-&nbsp; <br>
+ 
 &nbsp;• [Overview](#overview) <br>
 &nbsp;• [Dataset](#dataset) <br>
 &nbsp;• [Project Structure](#project-structure) <br>
@@ -150,3 +150,7 @@ This project is licensed under the **[appropriate license, e.g., MIT License]**.
 
 - **Luca Vassio** ([luca.vassio@polito.it](mailto:luca.vassio@polito.it)): The professor supervising our work and the primary point of reference for the project.
 - **Matteo Boffa** ([matteo.boffa@polito.it](mailto:matteo.boffa@polito.it)): The creator and organizer of this project.
+
+<div align="right">
+<a href="#top">Back to top</a>
+</div>
