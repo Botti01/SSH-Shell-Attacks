@@ -2,22 +2,31 @@
 
 <!-- TODO: decide what to keep in this README -->
 
-## Table of Contents
+<!-- ## Table of Contents -->
 
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Project Structure](#project-structure)
-- [Tools and Technologies](#tools-and-technologies)
-- [How to Run the Project](#how-to-run-the-project)
-- [Detailed Documentation](#detailed-documentation)
-  - [Data Directory](data/README.md)
-  - [Notebooks Directory](notebooks/README.md)
-  - [Results Directory](results/README.md)
-  - [Scripts Directory](scripts/README.md)
-  - [Tests Directory](tests/README.md)
-- [Authors](#authors)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+<details closed>
+<summary><b>Table of Contents</b></summary>
+
+&nbsp;• [Overview](#overview) <br>
+&nbsp;• [Dataset](#dataset) <br>
+&nbsp;• [Project Structure](#project-structure) <br>
+&nbsp;• [Tools and Technologies](#tools-and-technologies) <br>
+&nbsp;• [How to Run the Project](#how-to-run-the-project) <br>
+&nbsp;• [Detailed Documentation](#detailed-documentation) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Data Directory](data/README.md) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Notebooks Directory](notebooks/README.md) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Results Directory](results/README.md) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Scripts Directory](scripts/README.md) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• [Tests Directory](tests/README.md) <br>
+&nbsp;• [Authors](#authors) <br>
+&nbsp;• [License](#license) <br>
+&nbsp;• [Acknowledgments](#acknowledgments) <br>
+
+<div align="right">
+<i>Last updated: November 2024</i>
+</div>
+
+</details>
 
 ---
 
