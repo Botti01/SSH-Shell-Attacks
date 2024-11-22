@@ -1,8 +1,16 @@
 # SSH Shell Attacks Project
 
+![polito](resources/logo_polito.jpg)
+
 <!-- TODO: decide what to keep in this README -->
 
+<!-- TODO: add badges ? -->
+
+
+
 <!-- ## Table of Contents -->
+
+<!-- TODO: make prettier -->
 
 <details closed>
 <summary><b>Table of Contents</b></summary>
