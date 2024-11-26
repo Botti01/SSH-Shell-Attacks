@@ -10,7 +10,7 @@ def install_packages(section):
     """
     # Define dependencies for each section
     dependencies = {
-        "section0": ["pandas", "pyarrow"],      # Add dependencies for section0
+        "section0": ["pyarrow"],                # Add dependencies for section0
         "section1": ["matplotlib", "seaborn"],  # Add dependencies for section1
         "section2": ["scikit-learn"],           # Add dependencies for section2
         "section3": ["scipy", "numpy"],         # Add dependencies for section3
