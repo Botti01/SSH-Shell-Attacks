@@ -1,9 +1,30 @@
 import subprocess
 import sys
+import re
 from colorama import Fore, Style, init
 
 # Initialize colorama for colored output
 init(autoreset=True)
+
+def format_section(section):
+    """
+    Format a section string into a more readable format.
+
+    Converts strings like "section2" into "Section 2".
+
+    Args:
+        section (str): The name of the section (e.g., "section1", "section2").
+
+    Returns:
+        str: The formatted section name with proper capitalization and spacing.
+    """
+    import re
+
+    match = re.match(r"(section)(\d+)", section, re.IGNORECASE)
+    if match:
+        word, number = match.groups()
+        return f"{word.capitalize()} {number}"
+    return section
 
 def install_packages(section):
     """
@@ -33,12 +54,14 @@ def install_packages(section):
         elif in_section and line and not line.startswith("#"):
             # Add non-comment lines within the section
             packages.append(line)
+            
+    section = format_section(section)
 
     if not packages:
         print(Fore.YELLOW + f"No dependencies found for section '{section}'.")
         return
-
-    print(Fore.CYAN + f"Installing packages for {section}: {', '.join(packages)}")
+    
+    print(Fore.BLUE + f"Installing {section} packages: {', '.join(packages)}")
 
     # Install packages using pip
     for package in packages:
@@ -55,7 +78,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     section_name = sys.argv[1]
-    print(Fore.MAGENTA + "Installing common dependencies...")
+    # print(Fore.MAGENTA + "Installing common dependencies...")
     install_packages("common")
-    print(Fore.MAGENTA + f"Installing dependencies for section: {section_name}...")
+    # print(Fore.MAGENTA + f"Installing dependencies for section: {section_name}...")
     install_packages(section_name)

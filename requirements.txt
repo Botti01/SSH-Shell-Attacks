@@ -12,6 +12,7 @@ seaborn
 wordcloud
 
 # section2 dependencies
+seaborn
 scikit-learn
 
 # section3 dependencies
