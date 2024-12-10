@@ -18,7 +18,11 @@ seaborn
 scikit-learn
 
 # section3 dependencies
-
+numpy
+matplotlib
+seaborn
+scikit-learn
+wordcloud
 
 # section4 dependencies
 
