@@ -31,7 +31,7 @@
 &nbsp;• [Acknowledgments](#acknowledgments) <br>
 
 <div align="right">
-<i>Last updated: November 2024</i>
+<i>Last updated: January 2025</i>
 </div>
 
 </details>

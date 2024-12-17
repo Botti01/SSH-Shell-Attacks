@@ -25,4 +25,7 @@ scikit-learn
 wordcloud
 
 # section4 dependencies
-
+matplotlib
+scikit-learn
+torch
+transformers
