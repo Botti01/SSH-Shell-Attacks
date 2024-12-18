@@ -85,11 +85,6 @@ SSH-Shell-Attacks/
 ├── notebooks/                      # Jupyter notebooks
 │
 ├── scripts/                        # Python scripts for algorithms and utilities
-│   ├── preprocessing/              # Data processing and preparation scripts
-│   ├── supervised_learning/        # Supervised learning algorithms
-│   ├── unsupervised_learning/      # Clustering algorithms
-│   ├── language_models/            # Scripts for language model experimentation
-│   └── utils/                      # General-purpose utilities
 │
 ├── results/                        # Outputs from the models and analysis
 │   ├── figures/                    # Plots and visualizations
@@ -129,12 +124,19 @@ SSH-Shell-Attacks/
    pip install -r requirements.txt
    ```
 
-3. **Execute the Main Notebook:**
-   Open `notebooks/main.ipynb` and follow the instructions to:
+3. **Execute the Notebooks:**
+   Open the relevant notebook for each section and follow the instructions to:
 
    - Load the dataset.
    - Perform data exploration.
    - Train and evaluate machine learning models.
+
+   Notebooks:
+   - `section0_data_preprocessing_and_cleaning.ipynb`
+   - `section1_data_exploration_and_preprocessing.ipynb`
+   - `section2_supervised_learning_classification.ipynb`
+   - `section3_unsupervised_learning_clustering.ipynb`
+   - `section4_language_model_exploration.ipynb`
 
 4. **Explore Scripts:**
    Run modular scripts in the `scripts/` directory for specific tasks like preprocessing or model training.
