@@ -24,9 +24,11 @@ def plot_metrics_over_epochs(y_true, y_pred_probs, epochs):
         metrics['TNR'].append(tn / (tn + fp))
         metrics['FNR'].append(fn / (fn + tp))
     
+    # Now plot, averaging over the epochs
     plt.figure(figsize=(12, 8))
     for metric, values in metrics.items():
-        plt.plot(range(1, epochs + 1), np.mean(values, axis=1), label=metric)
+        # Take the mean across the epochs, and plot it
+        plt.plot(range(1, epochs + 1), values, label=metric)
     
     plt.xlabel('Epoch')
     plt.ylabel('Rate')
@@ -34,6 +36,7 @@ def plot_metrics_over_epochs(y_true, y_pred_probs, epochs):
     plt.legend()
     plt.grid(True)
     plt.show()
+
 
 def plot_loss_curves(train_losses, val_losses):
     """Plot training and validation loss curves."""
