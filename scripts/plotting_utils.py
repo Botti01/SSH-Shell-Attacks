@@ -37,7 +37,6 @@ def plot_metrics_over_epochs(y_true, y_pred_probs, epochs):
     plt.grid(True)
     plt.show()
 
-
 def plot_loss_curves(train_losses, val_losses):
     """Plot training and validation loss curves."""
     plt.figure(figsize=(10, 6))
