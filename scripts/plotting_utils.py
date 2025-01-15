@@ -37,14 +37,15 @@ def plot_metrics_over_epochs(y_true, y_pred_probs, epochs):
     plt.grid(True)
     plt.show()
 
-def plot_loss_curves(train_losses, val_losses):
-    """Plot training and validation loss curves."""
+def plot_loss_curve(train_losses, val_losses):
+    """Plot training and validation loss curves with log scale for better visualization."""
     plt.figure(figsize=(10, 6))
     plt.plot(train_losses, label='Training Loss')
     plt.plot(val_losses, label='Validation Loss')
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
     plt.title('Training and Validation Loss')
+    plt.ylim(0, 0.1)  # Set y-axis limits from 0 to 0.5
     plt.legend()
     plt.grid(True)
     plt.show()
