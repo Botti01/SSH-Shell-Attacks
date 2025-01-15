@@ -2,15 +2,9 @@
 
 ![polito](resources/logo_polito.jpg)
 
-<!-- TODO: decide what to keep in this README -->
-
 <!-- TODO: add badges ? -->
 
-
-
 <!-- ## Table of Contents -->
-
-<!-- TODO: make prettier -->
 
 <details closed>
 <summary><b>Table of Contents</b></summary>
@@ -74,6 +68,19 @@ The dataset uses 7 main intent classes:
 6. **Other** (Miscellaneous intents)
 7. **Harmless** (Non-malicious commands)
 
+## Project Report
+
+The project report is a comprehensive document detailing the methodologies, experiments, and findings of the SSH Shell Attacks project.
+
+- **Format:** PDF
+- **Template:** ACM format single column (acmlarge)
+
+The report is named [SSH-Shell-Attacks-report.pdf](SSH-Shell-Attacks-report.pdf) and can be found in the root directory of the repository.
+
+There is also an appendix of the project that contains extra plots and additional information. The appendix is also in the root directory, in PDF format, and uses the same ACM format single column template. The appendix is named [SSH-Shell-Attacks-appendix.pdf](SSH-Shell-Attacks-appendix.pdf).
+
+The original source code of the report can be found in the repo [latex-report](https://github.com/ML4Net/latex-report).
+
 ## Project Structure
 
 ```plaintext
@@ -92,6 +99,8 @@ SSH-Shell-Attacks/
 │   └── metrics/                    # Evaluation metrics and reports
 │
 ├── README.md                       # High-level overview of the project
+├── SSH-Shell-Attacks-report.pdf    # Report of the project
+├── SSH-Shell-Attacks-appendix.pdf  # Appendix of the report
 ├── requirements.txt                # Python dependencies
 ├── .gitignore                      # Ignore unnecessary files for versioning
 └── LICENSE                         # Licensing information (optional)
@@ -103,9 +112,9 @@ SSH-Shell-Attacks/
 - **Libraries:**
   - Data Processing: `pandas`, `numpy`, `pyarrow`
   - Visualization: `matplotlib`, `seaborn`
-  - Machine Learning: `scikit-learn`, `xgboost`
-  - NLP: `nltk`, `gensim`, `transformers`
-  - Clustering: `scipy`, `sklearn`
+  - Machine Learning: `scikit-learn`
+  - Clustering: `scikit-learn`, `wordcloud`
+  - Language Models: `scikit-learn`, `transformers`, `torch`
 
 ## How to Run the Project
 
