@@ -91,8 +91,6 @@ SSH-Shell-Attacks/
 │   ├── models/                     # Saved models (e.g., .pkl, .h5)
 │   └── metrics/                    # Evaluation metrics and reports
 │
-├── tests/                          # Unit tests
-│
 ├── README.md                       # High-level overview of the project
 ├── requirements.txt                # Python dependencies
 ├── .gitignore                      # Ignore unnecessary files for versioning
