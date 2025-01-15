@@ -11,6 +11,7 @@
  
 &nbsp;• [Overview](#overview) <br>
 &nbsp;• [Dataset](#dataset) <br>
+&nbsp;• [Project Report](#project-report) <br>
 &nbsp;• [Project Structure](#project-structure) <br>
 &nbsp;• [Tools and Technologies](#tools-and-technologies) <br>
 &nbsp;• [How to Run the Project](#how-to-run-the-project) <br>
@@ -30,14 +31,14 @@
 
 </details>
 
-
 ## Overview
 
 This project is part of the **Machine Learning for Networking (ML4N)** course at Politecnico di Torino. It focuses on analyzing SSH shell attack sessions recorded from honeypot deployments to classify attacker intents and explore underlying patterns.
 
 > **Navigation Tip**: This `README` provides a general overview of the project. For detailed documentation, check the specific `README` files in each directory ([see Table of Contents above](#table-of-contents)). Each subdirectory contains in-depth information about its specific components.
- 
+
 > **Quick Links**:
+>
 > - For data structure and preprocessing: [Data Documentation](data/README.md)
 > - For analysis notebooks: [Notebooks Documentation](notebooks/README.md)
 > - For implementation details: [Scripts Documentation](scripts/README.md)
@@ -85,6 +86,7 @@ The original source code of the report can be found in the repo [latex-report](h
 
 ```plaintext
 SSH-Shell-Attacks/
+│
 ├── data/                           # Dataset and related resources
 │   ├── raw/                        # Original dataset files (e.g., ssh_attacks.parquet)
 │   └── processed/                  # Pre-processed and feature-engineered files
@@ -139,6 +141,7 @@ SSH-Shell-Attacks/
    - Train and evaluate machine learning models.
 
    Notebooks:
+
    - `section0_data_preprocessing_and_cleaning.ipynb`
    - `section1_data_exploration_and_preprocessing.ipynb`
    - `section2_supervised_learning_classification.ipynb`
