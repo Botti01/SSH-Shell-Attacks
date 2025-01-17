@@ -1,4 +1,4 @@
-# SSH Shell Attacks Project
+# SSH Shell Attacks
 
 ![polito](resources/logo_polito.jpg)
 
