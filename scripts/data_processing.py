@@ -36,7 +36,7 @@ def sampling(df, min_label_count=2, sampling_ratio=0.05):
     return selected_rows
 
 # Function to split data into train and test sets
-def split_train_test(X, y, train_size=0.8, random_state=None):
+def split_train_test(X, y, train_size=0.7, random_state=None):
     """
     Split data into train and test sets with stratification.
 
