@@ -35,8 +35,8 @@
 
 This project is part of the **Machine Learning for Networking (ML4N)** course at Politecnico di Torino. It focuses on analyzing SSH shell attack sessions recorded from honeypot deployments to classify attacker intents and explore underlying patterns.
 
-Original Project Repository: [ML4Net/SSH-Shell-Attacks](https://github.com/ML4Net/SSH-Shell-Attacks)  
-Original Report Repository: [ML4Net/latex-report](https://github.com/ML4Net/latex-report)
+- Original Project Repository: [ML4Net/SSH-Shell-Attacks](https://github.com/ML4Net/SSH-Shell-Attacks)
+- Original Report Repository: [ML4Net/latex-report](https://github.com/ML4Net/latex-report)
 
 > **Navigation Tip**: This `README` provides a general overview of the project. For detailed documentation, check the specific `README` files in each directory ([see Table of Contents above](#table-of-contents)). Each subdirectory contains in-depth information about its specific components.
 
@@ -167,7 +167,7 @@ SSH-Shell-Attacks/
 
 ## License
 
-This project is licensed under the **[appropriate license, e.g., MIT License]**. Please see the `LICENSE` file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
