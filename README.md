@@ -2,8 +2,6 @@
 
 ![polito](resources/logo_polito.jpg)
 
-<!-- TODO: add badges ? -->
-
 <!-- ## Table of Contents -->
 
 <details closed>
@@ -33,7 +31,7 @@
 
 ## Overview
 
-This project is part of the **Machine Learning for Networking (ML4N)** course at Politecnico di Torino. It focuses on analyzing SSH shell attack sessions recorded from honeypot deployments to classify attacker intents and explore underlying patterns.
+This project is part of the [Machine Learning for Networking](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01DSMUV&p_a_acc=2025&p_header=S&p_lang=IT&multi=N) course at **Politecnico di Torino**. It focuses on analyzing SSH shell attack sessions recorded from honeypot deployments to classify attacker intents and explore underlying patterns.
 
 - Original Project Repository: [ML4Net/SSH-Shell-Attacks](https://github.com/ML4Net/SSH-Shell-Attacks)
 - Original Report Repository: [ML4Net/latex-report](https://github.com/ML4Net/latex-report)
@@ -173,6 +171,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Luca Vassio** ([luca.vassio@polito.it](mailto:luca.vassio@polito.it)): the professor supervising our work and the primary point of reference for the project.
 - **Matteo Boffa** ([matteo.boffa@polito.it](mailto:matteo.boffa@polito.it)): the creator and organizer of this project.
+- **Team Members**: Andrea Botticella, Elia Innocenti, Renato Mignone, and Simone Romano.
+
+Please cite us if this project is copied, used for inspiration, or if any material is taken from it.
 
 <div align="right">
 <a href="#top">Back to top</a>
